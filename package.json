@@ -1,0 +1,25 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Página dedicada a un festival de música",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alderan7/festivalmusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "Web",
+    "Design"
+  ],
+  "author": "Andrés Gallardo Simón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alderan7/festivalmusica/issues"
+  },
+  "homepage": "https://github.com/Alderan7/festivalmusica#readme"
+}
