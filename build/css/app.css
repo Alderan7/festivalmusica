@@ -367,6 +367,10 @@ h3 {
     @media (min-width: 768px) {
       .header h1 {
         margin-bottom: 0; } }
+  .header.fijo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem #444; }
 
 .navegacion-principal {
   display: flex;

@@ -1,6 +1,27 @@
 document.addEventListener('DOMContentLoaded', function(){
     scrollNav();
+
+    navegacionFija();
 });
+
+function navegacionFija(){
+    //Registrar el intersection observer
+
+    const barra=document.querySelector('.header');
+
+    const observador =  new IntersectionObserver( function(entries){
+
+        if(entries[0].isIntersecting){
+            barra.classList.remove('fijo');
+        }else{
+            barra.classList.add('fijo');
+        }
+    });
+
+    //Elemento a observar
+
+    observador.observe(document.querySelector('.sobre-festival'));
+}
 
 function scrollNav(){
     const enlaces = document.querySelectorAll('.navegacion-principal a');
